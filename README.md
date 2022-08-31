@@ -1,4 +1,4 @@
-![YaMdB workflow](https://github.com/ArtyKurkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
+![YaMdB workflow](https://github.com/ArtyKurkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # YaMDb (групповой проект)
 ### Описание
 Проект __YaMDb__ собирает __отзывы (Review)__ пользователей на __произведения (Titles)__. Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список __категорий (Category)__ может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
