@@ -1,17 +1,12 @@
+from api.serializers import GetAuthTokenSerializer, SignupSerializer
+from api.utils import get_confirmation_code, send_email
 from django.contrib.auth import get_user_model
 from django.shortcuts import get_object_or_404
-
 from rest_framework import status
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
-
-from api.utils import send_email, get_confirmation_code
-from api.serializers import (
-    SignupSerializer,
-    GetAuthTokenSerializer,
-)
 
 User = get_user_model()
 
