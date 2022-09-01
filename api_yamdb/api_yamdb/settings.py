@@ -11,6 +11,7 @@ ALLOWED_HOSTS = [
     '84.252.129.9',
     'localhost',
     '127.0.0.1',
+    'project-test.ddns.net',
     '*',
 ]
 
