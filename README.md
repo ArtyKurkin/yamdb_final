@@ -19,8 +19,8 @@ DB_PORT=5432
 ### Как запустить проект:
 Клонируем репозиторий:
 ```
-git clone https://github.com/ArtyKurkin/infra_sp2.git
-cd infra_sp2
+git clone https://github.com/ArtyKurkin/yamdb_final.git
+cd yamdb_final
 cd api_yamdb
 ```
 Переходим в директорию с файлом docker_compose.yaml:
