@@ -5,7 +5,9 @@ from users.enums import Roles
 
 
 class User(AbstractUser):
-
+    """
+    Custom user model
+    """
     username_validator = RegexValidator(
         regex=r'^[\w.@+-]+$',
         message=(
