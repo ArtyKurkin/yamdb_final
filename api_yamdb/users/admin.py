@@ -6,6 +6,7 @@ User = get_user_model()
 
 @admin.register(User)
 class CategoriesAdmin(admin.ModelAdmin):
+    """ Categories admin"
     list_display = (
         'username',
         'email',
